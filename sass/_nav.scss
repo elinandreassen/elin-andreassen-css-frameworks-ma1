@@ -1,0 +1,38 @@
+nav {
+    background: $color-secondary;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 2.25em;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding-top: 10px;
+    }
+
+    li {
+        margin-left: 1em;
+    }
+
+    a {
+        font-size: 1.38em;
+        text-transform: uppercase;
+        color: $color-grey;
+
+        &:hover {
+            text-decoration: none;
+            color: $color-pink;
+        }
+    }
+
+    a.active {
+        color: $color-pink;
+    }
+}

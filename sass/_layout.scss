@@ -1,0 +1,39 @@
+body {
+    background-color: $color-primary !important;
+    margin: 0;
+    padding: 0;
+}
+
+.container-cols {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+
+    .col {
+        border: 2px solid;
+        border-radius: 15px;
+        height: 264px;
+        flex: 0 0 264px;
+        margin: 10px;
+    }
+
+    .col-basic {
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+        box-shadow: 0px 6px rgba(0, 0, 0, 0.07);
+    }
+
+    .col-pink-border {
+        border-color: $color-pink;
+        background-color: $color-white;
+    }
+
+    .col-pink {
+        background-color: $color-pink;
+        border-color: $color-white;
+    }
+
+}
+
+
+
