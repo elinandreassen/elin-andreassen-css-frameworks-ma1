@@ -1,0 +1,17 @@
+footer {
+  background: $color-secondary;
+
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem 3rem !important;
+    margin: 0px 70px;
+
+    p {
+      color: $color-grey;
+      font-weight: 500;
+    }
+  }
+}
