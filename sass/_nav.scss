@@ -1,38 +1,32 @@
-nav {
-    background: $color-secondary;
+.navbar {
+  background-color: $color-secondary;
+  font-size: 1.38em;
+  padding: 0.5rem 3rem !important;
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  button.navbar-toggler {
+    border: none;
+  }
 
-    .logo {
-        font-size: 2.25em;
-    }
+  &-brand {
+    color: $color-black;
+    font-size: 1.38em;
+  }
 
-    ul {
-        list-style: none;
-        display: flex;
-        padding-top: 10px;
-    }
+  ul {
+    list-style: none;
+    padding-top: 2px;
 
     li {
-        margin-left: 1em;
+      margin-left: 1em;
     }
 
     a {
-        font-size: 1.38em;
-        text-transform: uppercase;
-        color: $color-grey;
-
-        &:hover {
-            text-decoration: none;
-            color: $color-pink;
-        }
+      text-transform: uppercase;
+      color: $color-grey;
     }
 
-    a.active {
-        color: $color-pink;
+    a.nav-link.nav-link-active {
+      color: $color-pink !important;
     }
+  }
 }

@@ -1,14 +1,14 @@
 footer {
-    background: $color-secondary;
+  background: $color-secondary;
 
-    .footer_container {
-        display: flex;
-        justify-content: space-between;
-    }
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 3rem !important;
 
     p {
-        color: $color-grey;
-        font-weight: 500;
-        padding: 10px 0px;
+      color: $color-grey;
+      font-weight: 500;
     }
+  }
 }
